@@ -1,32 +1,49 @@
-# Changelog â€” Risparmio (Personal Wealth & INPS Hub)
+# Changelog — Risparmio (Personal Wealth & INPS Hub)
 
-Tutte le novitÃ , le migliorie architetturali e le correzioni di sicurezza rilasciate tramite il canale OTA ufficiale (`https://github.com/risparmio/app-releases`) sono tracciate in questo documento.
+Tutte le novità, le migliorie architetturali e le correzioni di sicurezza rilasciate tramite il canale OTA ufficiale (`https://github.com/risparmio/app-releases`) sono tracciate in questo documento (`change.log`).
 
-Il formato Ã¨ basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e il progetto adotta il [Semantic Versioning](https://semver.org/lang/it/).
+Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e il progetto adotta il [Semantic Versioning](https://semver.org/lang/it/).
+
+---
+
+## [1.1.0] - 2026-10-26
+
+### Added
+- **Icona Dedicata Adaptive (`ic_launcher` & `ic_launcher_round`)**:
+  - Nuova icona vettoriale dedicata con scudo crittografico smeraldo (`SQLCipher`), istogramma di crescita patrimoniale e freccia di rendimento dorata, con supporto alle icone adattive e monocromatiche di Android 13–16.
+- **Offuscamento Bytecode Zero-Plaintext della Chiave Gemini AI (`OBFUSCATED_GEMINI_KEY`)**:
+  - La chiave API non viene mai salvata come stringa in chiaro nel bytecode DEX nè nel repository Git: viene offuscata tramite maschera XOR posizionale in un `IntArray` a tempo di compilazione e, al primo avvio, decodificata in memoria e salvata cifrata in `EncryptedSharedPreferences` (`AES-256-GCM` protetto da `AndroidKeyStore`).
+
+### Changed
+- **Avvio Clean-Slate (Zero Dati Precaricati)**:
+  - Rimossi tutti i saldi, conti, mutui, investimenti e profili INPS dimostrativi all'avvio: l'applicazione parte completamente pulita (`0,00 €`), pronta per l'inserimento dei tuoi conti reali e l'importazione del tuo file XML INPS.
+  - Mantenute esclusivamente le regole tecniche Regex per il riconoscimento delle notifiche bancarie italiane e la tabella ministeriale dei coefficienti di trasformazione INPS (57–70 anni).
+- **Tema Chiaro Predefinito (Default Light Theme)**:
+  - Impostato il tema chiaro (`LightFintechColors`) come tema predefinito all'avvio dell'applicazione (con possibilità di passare al tema scuro in qualsiasi momento tramite il selettore nella barra superiore).
 
 ---
 
 ## [1.0.0] - 2026-10-26
 
 ### Added
-- **Modulo 1 â€” Conti Correnti & Smart Notification Listener (`3-Gate Pipeline`)**:
+- **Modulo 1 — Conti Correnti & Smart Notification Listener (`3-Gate Pipeline`)**:
   - Gestione multi-conto corrente con saldo aggregato in tempo reale e IBAN mascherati.
   - **Gate 1**: Whitelist rigorosa dei package bancari autorizzati.
   - **Gate 2**: Blocco istantaneo in RAM delle notifiche contenenti codici OTP, 2FA o token dispositivi (`OtpAndSecurityNotificationFilter`) con zero persistenza su disco.
   - **Gate 3**: Motore di estrazione ibrido con regole Regex deterministiche on-device e fallback su **Gemini 2.5 Flash** protetto da anonimizzazione PII (`PiiAnonymizer`).
-- **Modulo 2 â€” Gestione Mutuo & Simulatore Estinzione Parziale**:
+- **Modulo 2 — Gestione Mutuo & Simulatore Estinzione Parziale**:
   - Piano di ammortamento completo (Francese / Italiano) con importazione da file CSV/testo tramite Storage Access Framework (`SAF`).
   - Simulatore interattivo di estinzione anticipata parziale con confronto istantaneo tra **Riduci Rata Mensile** e **Riduci Durata Mutuo** e calcolo del risparmio netto sugli interessi.
-- **Modulo 3 â€” Portafoglio Investimenti (ETF, BTP, Fondo Pensione)**:
+- **Modulo 3 — Portafoglio Investimenti (ETF, BTP, Fondo Pensione)**:
   - Valorizzazione distinta per **ETF** (aliquota 26%), **BTP / Titoli di Stato** (aliquota agevolata 12,5% e scadenziario cedole semestrali) e **Fondo Pensione Complementare**.
-  - Monitoraggio automatico del plafond annuale di deducibilitÃ  IRPEF (`5.164,57 â‚¬` ex Art. 10 TUIR) con scorporo automatico del TFR.
+  - Monitoraggio automatico del plafond annuale di deducibilità IRPEF (`5.164,57 €` ex Art. 10 TUIR) con scorporo automatico del TFR.
   - Aggiornamento quotazioni di mercato tramite **Gemini Search Grounding**.
-- **Modulo 4 â€” Motore Previdenziale INPS (`<EstrattoConto>` XML)**:
+- **Modulo 4 — Motore Previdenziale INPS (`<EstrattoConto>` XML)**:
   - Parser nativo `XmlPullParser` indurito contro XXE per il tracciato XML ufficiale INPS (`RegimeGenerale` FPLD + `RegimeParasubordinati` Gestione Separata).
-  - Riconoscimento automatico del **Sistema Contributivo Puro (L. 335/1995)**, calcolo del montante rivalutato, coefficienti di trasformazione ministeriali (57â€“70 anni con interpolazione in dodicesimi) e confronto tra **Cumulo Gratuito (L. 228/2012)** e **Computo in Gestione Separata**.
-- **Modulo 5 â€” Dashboard StabilitÃ  Finanziaria & Previdenziale a 3 Pilastri**:
-  - Indicatori sintetici di **Patrimonio Netto Complessivo**, **Emergency Fund Runway** (in mesi), **Debt-to-Income Ratio (DTI)**, **Tasso di Sostituzione Previdenziale Netto Integrato** (1Â° Pilastro INPS + 2Â° Pilastro Fondo Pensione + 3Â° Pilastro ETF/BTP) e **Financial Stability Score (0â€“100)**.
-- **Modulo 6 â€” Sicurezza OWASP MASVS & GitHub Releases Self-Updater (OTA)**:
+  - Riconoscimento automatico del **Sistema Contributivo Puro (L. 335/1995)**, calcolo del montante rivalutato, coefficienti di trasformazione ministeriali (57–70 anni con interpolazione in dodicesimi) e confronto tra **Cumulo Gratuito (L. 228/2012)** e **Computo in Gestione Separata**.
+- **Modulo 5 — Dashboard Stabilità Finanziaria & Previdenziale a 3 Pilastri**:
+  - Indicatori sintetici di **Patrimonio Netto Complessivo**, **Emergency Fund Runway** (in mesi), **Debt-to-Income Ratio (DTI)**, **Tasso di Sostituzione Previdenziale Netto Integrato** e **Financial Stability Score (0–100)**.
+- **Modulo 6 — Sicurezza OWASP MASVS & GitHub Releases Self-Updater (OTA)**:
   - Database locale interamente cifrato con **SQLCipher AES-256-GCM** e chiave a 32 byte protetta in hardware da **AndroidKeyStore (StrongBox / TEE)**.
   - Protezione anti-screenshot (`FLAG_SECURE`) e sblocco con **BiometricPrompt Class 3**.
-  - Sistema di aggiornamento automatico **OTA** collegato al repository `https://github.com/risparmio/app-releases` con lettura automatica di `CHANGELOG.md` / `change.log`, verifica crittografica `SHA-256` in tempo costante e controllo di corrispondenza del certificato di firma dell'APK (`GET_SIGNING_CERTIFICATES`).
+  - Sistema di aggiornamento automatico **OTA** collegato al repository `https://github.com/risparmio/app-releases` con lettura automatica di `change.log`, verifica crittografica `SHA-256` in tempo costante e controllo di corrispondenza del certificato di firma dell'APK (`GET_SIGNING_CERTIFICATES`).
