@@ -1,7 +1,7 @@
 {
-    "version_code":  10106,
-    "version_name":  "1.1.6",
+    "version_code":  10107,
+    "version_name":  "1.1.7",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Fondo Pensione Cometa: calcolo automatico versamenti storici e ad oggi da Settembre 2026\n• Gestione parametri RAL, % Lavoratore, % Azienda e % TFR con ricalcolo e aggiornamento aumenti retributivi\n• Simulazione comparativa multiramo di tutti i 4 comparti Fondo Cometa (Monetario Plus, Sicurezza, Reddito, Crescita)\nâ€¢ Build OTA v1.1.6 (10106) - Rilascio del 27/10/2026 23:00",
+    "release_notes":  "• Sistema di Backup \u0026 Restore Cifrato Portabile (.risp.enc)\n• Cifratura autenticata AES-256-GCM con derivazione password PBKDF2-HMAC-SHA256 (600.000 iterazioni OWASP) e compressione GZIP\n• Salvataggio e ripristino sicuro di tutti i dati: Conti Correnti, Movimenti, Mutuo, BTP, ETF, Fondo Cometa e INPS tramite Storage Access Framework\nâ€¢ Build OTA v1.1.7 (10107) - Rilascio del 27/10/2026 23:27",
     "is_mandatory":  false
 }
