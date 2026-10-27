@@ -1,7 +1,7 @@
 {
-    "version_code":  10102,
-    "version_name":  "1.1.2",
+    "version_code":  10103,
+    "version_name":  "1.1.3",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Ridenominata applicazione in Patrimonio e rimossi riferimenti tecnici (SQLCipher AES 256, info git OTA)\n• Spostata simulazione notifiche e test OTP nella scheda Impostazioni/Diagnostica\n• Aggiunta cancellazione spese con ripristino saldo conto\n• Configurazione guidata Mutuo e Prestito con calcolo ammortamento e rate pagate/residue\n• Inserimento guidato strumenti ETF/BTP e gestione iscrizione Fondo Pensione con deducibilità IRPEF\n• Rimossa dicitura XML da INPS con etichette user-friendly (Importa/Ricarica Dati)\n• Disabilitato FLAG_SECURE in Debug per mirroring su Android Studio\nâ€¢ Build OTA v1.1.2 (10102) - Rilascio del 27/10/2026 21:55",
+    "release_notes":  "• Mutuo/Prestito: aggiunta data di inizio configurabile e supporto al calcolo da rata effettiva pagata / TAEG\n• Rimossi tutti i riferimenti residui a SQLCipher AES-256 da schermata di sblocco e badge Hero Home\n• Rimosso completamente il termine XML da tutte le etichette, badge e notifiche della Home e di Previdenza\nâ€¢ Build OTA v1.1.3 (10103) - Rilascio del 27/10/2026 22:11",
     "is_mandatory":  false
 }
