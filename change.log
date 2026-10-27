@@ -1,7 +1,7 @@
 {
-    "version_code":  10107,
-    "version_name":  "1.1.7",
+    "version_code":  10108,
+    "version_name":  "1.1.8",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Sistema di Backup \u0026 Restore Cifrato Portabile (.risp.enc)\n• Cifratura autenticata AES-256-GCM con derivazione password PBKDF2-HMAC-SHA256 (600.000 iterazioni OWASP) e compressione GZIP\n• Salvataggio e ripristino sicuro di tutti i dati: Conti Correnti, Movimenti, Mutuo, BTP, ETF, Fondo Cometa e INPS tramite Storage Access Framework\nâ€¢ Build OTA v1.1.7 (10107) - Rilascio del 27/10/2026 23:27",
+    "release_notes":  "• Risoluzione persistenza sincrona GEMINI_API_KEY nel Vault cifrato (commit immediato su EncryptedSharedPreferences e trim spazi/a capo)\n• Gestione esplicita degli errori di rete e API key non valida con messaggi chiari e puntuali nel tab Investimenti e Notifiche\nâ€¢ Build OTA v1.1.8 (10108) - Rilascio del 27/10/2026 23:36",
     "is_mandatory":  false
 }
