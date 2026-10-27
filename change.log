@@ -1,7 +1,7 @@
 {
-    "version_code":  10104,
-    "version_name":  "1.1.4",
+    "version_code":  10105,
+    "version_name":  "1.1.5",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Mutuo: aggiunto pulsante \u0027Modifica Dati\u0027 per riaprire e modificare in ogni momento importo, rata effettiva, tasso/TAEG, data inizio e durata\nâ€¢ Build OTA v1.1.4 (10104) - Rilascio del 27/10/2026 22:16",
+    "release_notes":  "• Aggiunta modifica e cancellazione per asset finanziari (ETF, BTP) con ricalcolo e rimozione cedole collegate\n• Aggiunta cancellazione e modifica per posizione Fondo Pensione\nâ€¢ Build OTA v1.1.5 (10105) - Rilascio del 27/10/2026 22:31",
     "is_mandatory":  false
 }
