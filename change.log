@@ -1,7 +1,7 @@
 {
-    "version_code":  10109,
-    "version_name":  "1.1.9",
+    "version_code":  10110,
+    "version_name":  "1.2.0",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Aggiornamento modello Gemini: rimosso il riferimento al modello legacy 1.5 e impostato di default su \u0027gemini-2.5-flash\u0027\n• Aggiunto selettore dinamico del modello (gemini-2.5-flash, gemini-2.0-flash, gemini-flash) nella schermata Sicurezza\nâ€¢ Build OTA v1.1.9 (10109) - Rilascio del 27/10/2026 23:51",
+    "release_notes":  "• Correzione e quadratura calcoli Portafoglio Investimenti (ETF e BTP):\n  - Centralizzazione calcolo controvalore in calculateMarketValueCents:\n    * ETF: quote * prezzo unitario in centesimi\n    * BTP: nominale * (corso secco / 100) in centesimi\n  - Ricalcolo automatico del controvalore e del P\u0026L su modifica o aggiunta quote/nominale/PMC\n  - Format visuale BTP corretto (Nominale in €, Prezzo/PMC in punti base 100 senza € fuorvianti)\n  - Visualizzazione esplicita imposta sostitutiva (26% ETF / 12,5% BTP) e P\u0026L Netto\n  - Supporto per separatori decimali virgola o punto nel modal di modifica/inserimento\nâ€¢ Build OTA v1.2.0 (10110) - Rilascio del 28/10/2026 00:07",
     "is_mandatory":  false
 }
