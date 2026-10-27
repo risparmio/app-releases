@@ -1,7 +1,7 @@
 {
-    "version_code":  10108,
-    "version_name":  "1.1.8",
+    "version_code":  10109,
+    "version_name":  "1.1.9",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Risoluzione persistenza sincrona GEMINI_API_KEY nel Vault cifrato (commit immediato su EncryptedSharedPreferences e trim spazi/a capo)\n• Gestione esplicita degli errori di rete e API key non valida con messaggi chiari e puntuali nel tab Investimenti e Notifiche\nâ€¢ Build OTA v1.1.8 (10108) - Rilascio del 27/10/2026 23:36",
+    "release_notes":  "• Aggiornamento modello Gemini: rimosso il riferimento al modello legacy 1.5 e impostato di default su \u0027gemini-2.5-flash\u0027\n• Aggiunto selettore dinamico del modello (gemini-2.5-flash, gemini-2.0-flash, gemini-flash) nella schermata Sicurezza\nâ€¢ Build OTA v1.1.9 (10109) - Rilascio del 27/10/2026 23:51",
     "is_mandatory":  false
 }
