@@ -1,7 +1,7 @@
 {
-    "version_code":  10101,
-    "version_name":  "1.1.1",
+    "version_code":  10115,
+    "version_name":  "1.2.5",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "â€¢ Implementato sistema di auto-aggiornamento OTA diretto via GitHub Raw (change.log JSON)\nâ€¢ Avvio automatico AppUpdateChecker e dialog Material 3 AppUpdateDialog\nâ€¢ Partenza database pulita (Zero Dati precaricati), Tema Chiaro di default e icona adattiva\nâ€¢ Chiave Gemini AI offuscata in array XOR e cifrata in EncryptedSharedPreferences\nâ€¢ Build OTA v1.1.1 (10101) - Rilascio del 28/10/2026 09:04",
+    "release_notes":  "Integrazione Google Search Grounding su Gemini AI per quotazioni di mercato reali in tempo reale (Borsa Italiana / MOT) per ETF e Titoli di Stato BTP.\nâ€¢ Build OTA v1.2.5 (10115) - Rilascio del 28/10/2026 09:06",
     "is_mandatory":  false
 }
