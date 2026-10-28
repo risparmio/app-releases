@@ -1,7 +1,7 @@
 {
-    "version_code":  10111,
-    "version_name":  "1.2.1",
+    "version_code":  10112,
+    "version_name":  "1.2.2",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Aggiunto switch in Sicurezza \u0026 Protezione per abilitare o disabilitare la protezione dello schermo:\n  - Attivo (default): blocca screenshot, registrazione schermo e offusca l\u0027anteprima nelle app recenti\n  - Disattivato: consente cattura screenshot e registrazione dello schermo in tempo reale\n  - Reattività istantanea senza riavvio dell\u0027applicazione\nâ€¢ Build OTA v1.2.1 (10111) - Rilascio del 28/10/2026 07:54",
+    "release_notes":  "• Allineamento versione AGP (Android Gradle Plugin) a 8.6.1 compatibile nativamente con Android Studio 2024.1 (Koala / Ladybug):\n  - Risolto errore \u0027Gradle sync failed\u0027\n  - Risolta discrepanza tra Gradle JDK (JBR) e compilatore nativo\n  - Mantenuto switch dinamico protezione schermo (FLAG_SECURE)\nâ€¢ Build OTA v1.2.2 (10112) - Rilascio del 28/10/2026 08:05",
     "is_mandatory":  false
 }
