@@ -1,7 +1,7 @@
 {
-    "version_code":  10118,
-    "version_name":  "1.3.1",
+    "version_code":  10119,
+    "version_name":  "1.3.2",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Fix parsing numeri decimali con virgola e punto italiano (parseFlexibleDouble), fix aggiornamento e duplicazione prestiti personali, ricalcolo preciso rata e debito residuo.\nâ€¢ Build OTA v1.3.1 (10118) - Rilascio del 28/10/2026 10:15",
+    "release_notes":  "Fix: separazione query prestiti tramite referenceIndex LOAN per consentire qualsiasi nome (es. Assicurazione), robustezza parser numeri decimali italiani con punti e virgole.\nâ€¢ Build OTA v1.3.2 (10119) - Rilascio del 28/10/2026 10:53",
     "is_mandatory":  false
 }
