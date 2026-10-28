@@ -1,7 +1,7 @@
 {
-    "version_code":  10110,
-    "version_name":  "1.2.0",
+    "version_code":  10111,
+    "version_name":  "1.2.1",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Correzione e quadratura calcoli Portafoglio Investimenti (ETF e BTP):\n  - Centralizzazione calcolo controvalore in calculateMarketValueCents:\n    * ETF: quote * prezzo unitario in centesimi\n    * BTP: nominale * (corso secco / 100) in centesimi\n  - Ricalcolo automatico del controvalore e del P\u0026L su modifica o aggiunta quote/nominale/PMC\n  - Format visuale BTP corretto (Nominale in €, Prezzo/PMC in punti base 100 senza € fuorvianti)\n  - Visualizzazione esplicita imposta sostitutiva (26% ETF / 12,5% BTP) e P\u0026L Netto\n  - Supporto per separatori decimali virgola o punto nel modal di modifica/inserimento\nâ€¢ Build OTA v1.2.0 (10110) - Rilascio del 28/10/2026 00:07",
+    "release_notes":  "• Aggiunto switch in Sicurezza \u0026 Protezione per abilitare o disabilitare la protezione dello schermo:\n  - Attivo (default): blocca screenshot, registrazione schermo e offusca l\u0027anteprima nelle app recenti\n  - Disattivato: consente cattura screenshot e registrazione dello schermo in tempo reale\n  - Reattività istantanea senza riavvio dell\u0027applicazione\nâ€¢ Build OTA v1.2.1 (10111) - Rilascio del 28/10/2026 07:54",
     "is_mandatory":  false
 }
