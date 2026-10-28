@@ -1,7 +1,7 @@
 {
-    "version_code":  10113,
-    "version_name":  "1.2.3",
+    "version_code":  10114,
+    "version_name":  "1.2.4",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "• Fix quotazioni e prompt Gemini AI per ETF e BTP:\n  - Istruzioni rigorose a Gemini sul prezzo per quota (40-150€ per ETF, non il controvalore totale di 505€)\n  - Corso secco base 100 per i Titoli di Stato BTP\n  - Supporto per visualizzazione e modifica della cedola annua BTP in dialog e card\n  - P\u0026L Netto e imposta sostitutiva (12,5% BTP / 26% ETF) verificati al centesimo\nâ€¢ Build OTA v1.2.3 (10113) - Rilascio del 28/10/2026 08:13",
+    "release_notes":  "• Fix critico e chiarimento su gestione Prezzo Attuale vs PMC:\n  - Aggiunto il campo esplicito \u0027Prezzo Attuale per Quota\u0027 nella schermata di Modifica Strumento\n  - Impedita la sovrascrittura automatica errata del prezzo con quotazioni errate di Gemini\n  - Possibilità di correggere istantaneamente il prezzo di mercato per ogni titolo\n  - Quadratura matematica P\u0026L, Capital Gain (26% ETF / 12,5% BTP) e netto\nâ€¢ Build OTA v1.2.4 (10114) - Rilascio del 28/10/2026 08:38",
     "is_mandatory":  false
 }
