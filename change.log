@@ -1,7 +1,7 @@
 {
-    "version_code":  10122,
-    "version_name":  "1.4.1",
+    "version_code":  10123,
+    "version_name":  "1.4.2",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Feature: PIN numerico di backup cifrato e sblocco esportazione/ripristino con Impronta Digitale senza digitare password\nâ€¢ Build OTA v1.4.1 (10122) - Rilascio del 28/10/2026 12:52",
+    "release_notes":  "Feature: Auto-addebito rate mutui e prestiti al 29 o lavorativo successivo e riconoscimento giroconti Intesa-BNL\nâ€¢ Build OTA v1.4.2 (10123) - Rilascio del 28/10/2026 13:42",
     "is_mandatory":  false
 }
