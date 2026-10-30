@@ -1,7 +1,7 @@
 {
-    "version_code":  10139,
-    "version_name":  "1.9.4",
+    "version_code":  10140,
+    "version_name":  "1.9.5",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Implementate voci aggregate ispezionabili per Trasferimenti Interni (giroconti, saldo carte credito Nexi/Amex, micro-risparmio salvadanaio) e nuova sezione dedicata per Brand e Piattaforme rilevanti (Amazon, Netflix, PayPal, Verisure, Google, Apple, Fastweb, Sorgenia, ecc.) con drill-down completo di tutti i movimenti.\nâ€¢ Build OTA v1.9.4 (10139) - Rilascio del 30/10/2026 15:18",
+    "release_notes":  "Persistenza completa del modulo Analisi Spese \u0026 Risparmio su DB Room v4, deduplicazione per periodo di validita (periodStartDate - periodEndDate) senza duplicazioni al ricaricamento di estratti conto, nuova schermata Report \u0026 Grafici con selettore periodi, pulsante Salva Report e retro-compatibilita al 100% per backup cifrati .risp.enc\nâ€¢ Build OTA v1.9.5 (10140) - Rilascio del 30/10/2026 16:58",
     "is_mandatory":  false
 }
