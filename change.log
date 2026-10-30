@@ -1,7 +1,7 @@
 {
-    "version_code":  10137,
-    "version_name":  "1.9.2",
+    "version_code":  10138,
+    "version_name":  "1.9.3",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Perfezionamento Spending Intelligence: Trasferimenti Interni isolati dalle spese, distinzione netta Canoni/Bolli bancari e filtraggio rigoroso ricorrenze\nâ€¢ Build OTA v1.9.2 (10137) - Rilascio del 30/10/2026 14:37",
+    "release_notes":  "Corretto isolamento trasferimenti interni (carte credito Nexi/Amex, giroconti e salvadanaio), disambiguazione domiciliazioni bollette e utenze da pagamenti PayPal/Telepass, esplorazione interattiva con drill-down di tutte le macro-categorie di spesa ed esclusione rigorosa bonifici privati da abbonamenti ricorrenti.\nâ€¢ Build OTA v1.9.3 (10138) - Rilascio del 30/10/2026 15:00",
     "is_mandatory":  false
 }
