@@ -1,7 +1,7 @@
 {
-    "version_code":  10124,
-    "version_name":  "1.4.3",
+    "version_code":  10125,
+    "version_name":  "1.5.0",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Feature: Selezione conto corrente di addebito per mutui e prestiti con decurtazione automatica disponibilità al 29 e 100% retrocompatibilità backup\nâ€¢ Build OTA v1.4.3 (10124) - Rilascio del 28/10/2026 13:56",
+    "release_notes":  "Fix: Cattura notifiche con fallback conti e whitelist BNL; supporto import CSV per qualsiasi finanziamento/mutuo e perfezionamento calcolo ammortamento\nâ€¢ Build OTA v1.5.0 (10125) - Rilascio del 30/10/2026 09:13",
     "is_mandatory":  false
 }
