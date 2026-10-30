@@ -1,7 +1,7 @@
 {
-    "version_code":  10130,
-    "version_name":  "1.7.0",
+    "version_code":  10131,
+    "version_name":  "1.8.0",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Feature: Modulo universale Carte di Credito con plafond, gestione ciclo contabile ed estratto conto, addebito automatico su c/c con calendario TARGET e card grafiche dedicate\nâ€¢ Build OTA v1.7.0 (10130) - Rilascio del 30/10/2026 11:02",
+    "release_notes":  "Feature: Modulo Import/Export Estratti Conto (XLSX e CSV) con staging di riconciliazione selettiva per Intesa Sanpaolo e BNL, tutela saldo attuale ed export CSV\nâ€¢ Build OTA v1.8.0 (10131) - Rilascio del 30/10/2026 12:00",
     "is_mandatory":  false
 }
