@@ -1,7 +1,7 @@
 {
-    "version_code":  10142,
-    "version_name":  "1.9.7",
+    "version_code":  10143,
+    "version_name":  "1.9.8",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Fix logica: cattura notifiche Intesa con nuovo pattern \u0027Hai pagato\u0027 e safe rule id foreign key, supporto Google Wallet, etichettatura Trasferimenti Interni, esclusione bonifici da spese ricorrenti e affinamento categorie BNL/Spese bancarie.\nâ€¢ Build OTA v1.9.7 (10142) - Rilascio del 30/10/2026 19:47",
+    "release_notes":  "Integrazione funzione \u0027Consigli con Gemini\u0027 e rigenerazione analisi AI direttamente nella schermata Report \u0026 Grafici, con salvataggio persistente su database Room v4.\nâ€¢ Build OTA v1.9.8 (10143) - Rilascio del 30/10/2026 19:59",
     "is_mandatory":  false
 }
