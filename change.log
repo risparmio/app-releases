@@ -1,7 +1,7 @@
 {
-    "version_code":  10126,
-    "version_name":  "1.6.0",
+    "version_code":  10127,
+    "version_name":  "1.6.1",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Feature: Modifica/cancellazione conti correnti, import CSV rate senza addebito retroattivo su liquidita, modifica movimenti contabilizzati e contabilizzazione manuale da log notifiche\nâ€¢ Build OTA v1.6.0 (10126) - Rilascio del 30/10/2026 09:52",
+    "release_notes":  "Feature: Parità informativa completa per Prestiti e Finanziamenti (prossima rata, conteggio rate pagate/rimanenti, barra avanzamento rimborso e dettaglio scadenze)\nâ€¢ Build OTA v1.6.1 (10127) - Rilascio del 30/10/2026 09:59",
     "is_mandatory":  false
 }
