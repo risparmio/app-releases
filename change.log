@@ -1,7 +1,7 @@
 {
-    "version_code":  10138,
-    "version_name":  "1.9.3",
+    "version_code":  10139,
+    "version_name":  "1.9.4",
     "download_url":  "https://raw.githubusercontent.com/risparmio/app-releases/main/risparmio.apk",
-    "release_notes":  "Corretto isolamento trasferimenti interni (carte credito Nexi/Amex, giroconti e salvadanaio), disambiguazione domiciliazioni bollette e utenze da pagamenti PayPal/Telepass, esplorazione interattiva con drill-down di tutte le macro-categorie di spesa ed esclusione rigorosa bonifici privati da abbonamenti ricorrenti.\nâ€¢ Build OTA v1.9.3 (10138) - Rilascio del 30/10/2026 15:00",
+    "release_notes":  "Implementate voci aggregate ispezionabili per Trasferimenti Interni (giroconti, saldo carte credito Nexi/Amex, micro-risparmio salvadanaio) e nuova sezione dedicata per Brand e Piattaforme rilevanti (Amazon, Netflix, PayPal, Verisure, Google, Apple, Fastweb, Sorgenia, ecc.) con drill-down completo di tutti i movimenti.\nâ€¢ Build OTA v1.9.4 (10139) - Rilascio del 30/10/2026 15:18",
     "is_mandatory":  false
 }
